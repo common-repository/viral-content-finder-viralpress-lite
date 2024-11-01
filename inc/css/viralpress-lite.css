@@ -1,0 +1,73 @@
+#adminmenu #toplevel_page_viralpress-lite div.wp-menu-image {
+    background-image: url("../images/icon.svg") !important;
+    background-position: 10px 7px !important; background-repeat: no-repeat !important;
+    background-size: 20px 20px !important; width: 38px !important;
+}
+a.toplevel_page_viralpress-lite > .dashicons-admin-generic::before { content: none !important; }
+
+.row { margin-right: 0px !important; }
+
+.wrap h2 { font-size: 23px; font-weight: 400; margin: 0; padding: 9px 15px 9px 0 !important; line-height: 29px; }
+
+/*.ddl-title { color: #fff !important; font-style: italic; font-size: 80%; }*/
+
+#results legend > span { float: left !important; margin: 15px 0; }
+
+#viral_sort, #viral_recentpost_sort { font-size: 15px !important; }
+
+.recent_posts span { loat: left !important; }
+
+/*.recent_posts div { float: right !important; width: 20% !important; padding-right: 50px !important; }*/
+
+#ddlsearch { width: 90px; }
+
+#search_form .input-group { width: 80%; }
+
+#posts_images .btn { padding: 6px 7px }
+
+/** POST **/
+#posts { display: none; margin-top: 15px; }
+
+#posts .btn-default { margin-bottom: 15px !important; padding: 6px 7px; margin-left: 25px; }
+
+#results { margin-top: 10px; }
+
+#results .btn-group { margin: 0 37%; display: block; }
+
+.viralpress_loader {
+    background-image: url("../images/viralpress_loader.gif"); background-repeat: no-repeat;
+    background-size: 50px 50px; height: 50px; float: right; margin-top: 3%; width: 25%;
+}
+#pleaseWaitDialog .modal-header { border: none !important; }
+
+#pleaseWaitDialog .modal-header h1 { float: left; border: none !important; }
+
+#login_status { margin-bottom: 3px; color: rgb(90, 90, 90); padding: 8px; width: 80%; }
+
+#login_status a{ cursor: pointer; }
+
+.recent_posts span { margin: 9px 0; width: 100%; }
+
+.modal-header{ border-bottom: 1px solid #fff; }
+
+.modal-footer{ border-top: 1px solid #fff; }
+
+td.blankdatas { text-align: center; }
+
+.row.page-nav {display:block; }
+
+.row.page-nav #pages_pagination_previous, .row.page-nav #pages_pagination_next { display: none; }
+
+.row.page-nav .btn-group { width: 100%; }
+
+div#results { display:none;margin-top:10px; }
+
+
+/* Help */
+.getting-started { border: 1px solid #ccc; float: left; margin: 15px; width: 30%; padding: 20px; }
+
+.getting-started img{ width: 100%; }
+
+.viralpress_proversion { border: 1px solid #ccc; float: left; margin: 20px; width: 95%; padding: 20px; }
+
+.viralpress_proversion img { width: 100%; }
